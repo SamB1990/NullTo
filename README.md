@@ -8,30 +8,47 @@ It does this by using an IParse<> interface that creates a handler for the type 
 
 ### Custom parsable types
 
-To build custom parsable type inherit a handler class or actual parsable object class from the IParse<[ObjectClassName]> and implement the interface. Its as simple as that you class can now be parsed
+To build custom parsable type inherit a handler class or actual parsable object class from the IParse<[ObjectClassName]>(Must have a blank constructor) and implement the interface. Its as simple as that you class can now be parsed
 
 For Example:
 
-
     public TestObject : IParse<TestObject>
     {
-    
+        public string Name { get; set; }
+        
+        public TestObject Parse(object i)
+        {
+            if(i is string)
+                return new TestObject() { Name = i };
+            return (TestObject)i;
+        }
+
+        public TestObject GetDefault()
+        {
+            return new TestObject();
+        }
     }    
-   > build the class and inhrit from IParse
+> build the class and inhrit from IParse<>(Must have a blank constructor)
+
+    public void TestMethod(string obj = "blank")
+    {
+        var testObject = obj.ParseTo<TestObject>();
+        
+> Now you can parse to your test object
 
 ### Pre-built parsable types
-   #### int
-   #### int?
-   #### string
-   #### double
-   #### long
-   #### float
-   #### decimal
-   #### Guid
-   #### bool
-   #### bool?
-   #### DateTime
-   #### DateTime?
+#### int
+#### int?
+#### string
+#### double
+#### long
+#### float
+#### decimal
+#### Guid
+#### bool
+#### bool?
+#### DateTime
+#### DateTime?
   
 # Contribute
 
