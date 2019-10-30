@@ -22,18 +22,18 @@ public TestObject : IParse<TestObject>
 > build the class and inhrit from IParse
 
 ### Pre-built parsable types
-#### int
-#### int?
-#### string
-#### double
-#### long
-#### float
-#### decimal
-#### Guid
-#### bool
-#### bool?
-#### DateTime
-#### DateTime?
+    #### int
+    #### int?
+    #### string
+    #### double
+    #### long
+    #### float
+    #### decimal
+    #### Guid
+    #### bool
+    #### bool?
+    #### DateTime
+    #### DateTime?
   
 # Contribute
 
