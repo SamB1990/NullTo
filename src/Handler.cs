@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using ParseTo.Exceptions;
 
 namespace ParseTo
 {
@@ -11,16 +12,20 @@ namespace ParseTo
 
         private IEnumerable<Assembly> getAssemblies<T>()
         {
-            var assemblies = new List<Assembly> { Assembly.GetExecutingAssembly(), typeof(T).Assembly };
+            var assemblies = new List<Assembly>();
 
             assemblies.AddRange(LoadExtensibleAssemblies());
+
+            assemblies.Add(typeof(T).Assembly);
+
+            assemblies.Add(Assembly.GetExecutingAssembly());
 
             return assemblies;
         }
 
         private static IParseTo<T> createParser<T>(Type parserType)
         {
-            return (IParseTo<T>)Activator.CreateInstance(parserType ?? throw new InvalidOperationException($"You are trying to create an instance of { (Type)null }"));
+            return (IParseTo<T>)Activator.CreateInstance(parserType ?? throw new ParseToNotImplementedException<T>());
         }
 
         private IParseTo<T> getParser<T>()
