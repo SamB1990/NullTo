@@ -42,15 +42,25 @@ For Example:
 #### int?
 *Default return: null*
 #### string
+*Default return: ""*
 #### double
+*Default return: 0*
 #### long
+*Default return: 0*
 #### float
+*Default return: 0*
 #### decimal
+*Default return: 0*
 #### Guid
+*Default return: 00000000-0000-0000-0000-000000000000*
 #### bool
+*Default return: false*
 #### bool?
+*Default return: null*
 #### DateTime
+*Default return: 1/1/0001 12:00:00 AM  (Equals Date.MinValue)*
 #### DateTime?
+*Default return: null*
   
 # Contribute
 
