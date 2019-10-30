@@ -1,9 +1,39 @@
 # What is ParseTo
 
-The string helper was born to help me keep a library of useful extensions to strings. I am constantly writing methods across different projects that i again replicate when i move on to the next one so i thought i should create a library.
+Parse To was a project first conceptualized as a way to commonly handle nulls but soon moved into a generic Parser to take an object variable and turn it into a generically passed type, a built in default for the type or a passed default for the type. 
+
+It does this by using an IParse<> interface that creates a handler for the type you wish to cast to or resturns an Exception if the type has not IParse<> impelmentation
 
 ## Current Functionality
 
+### Custom parsable types
+
+To build custom parsable type inherit a handler class or actual parsable object class from the IParse<[ObjectClassName]> and implement the interface. Its as simple as that you class can now be parsed
+
+For Example:
+
+```
+public TestObject : IParse<TestObject>
+{
+    
+}
+
+```
+> build the class and inhrit from IParse
+
+### Pre-built parsable types
+#### int
+#### int?
+#### string
+#### double
+#### long
+#### float
+#### decimal
+#### Guid
+#### bool
+#### bool?
+#### DateTime
+#### DateTime?
   
 # Contribute
 
