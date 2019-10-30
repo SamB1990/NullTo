@@ -1,0 +1,8 @@
+C:\Users\sam\source\repos\NullTo\src\bin\Debug\netstandard2.0\NullTo.deps.json
+C:\Users\sam\source\repos\NullTo\src\bin\Debug\netstandard2.0\NullTo.dll
+C:\Users\sam\source\repos\NullTo\src\bin\Debug\netstandard2.0\NullTo.pdb
+C:\Users\sam\source\repos\NullTo\src\obj\Debug\netstandard2.0\NullTo.csprojAssemblyReference.cache
+C:\Users\sam\source\repos\NullTo\src\obj\Debug\netstandard2.0\NullTo.AssemblyInfoInputs.cache
+C:\Users\sam\source\repos\NullTo\src\obj\Debug\netstandard2.0\NullTo.AssemblyInfo.cs
+C:\Users\sam\source\repos\NullTo\src\obj\Debug\netstandard2.0\NullTo.dll
+C:\Users\sam\source\repos\NullTo\src\obj\Debug\netstandard2.0\NullTo.pdb

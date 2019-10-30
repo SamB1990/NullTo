@@ -1,0 +1,7 @@
+C:\Users\sam\source\repos\NullTo\src\bin\Release\netstandard2.0\ParseTo.deps.json
+C:\Users\sam\source\repos\NullTo\src\bin\Release\netstandard2.0\ParseTo.dll
+C:\Users\sam\source\repos\NullTo\src\bin\Release\netstandard2.0\ParseTo.pdb
+C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.AssemblyInfoInputs.cache
+C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.AssemblyInfo.cs
+C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.dll
+C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.pdb

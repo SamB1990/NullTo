@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ParseTo</id>
+    <version>1.0.0</version>
+    <authors>Sam Blundell</authors>
+    <owners>Sam Blundell</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library that allows you to parse any object type to a specific default object type this can be extended to contain your own custom types</description>
+    <copyright>Copyright (c) 2019 Sam Blundell</copyright>
+    <repository type="github" url="https://github.com/SamB1990/ParseTo" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\sam\source\repos\NullTo\src\bin\Debug\netstandard2.0\ParseTo.dll" target="lib\netstandard2.0\ParseTo.dll" />
+  </files>
+</package>
