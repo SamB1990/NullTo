@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sam\\Source\\Repos\\NullTo\\tests\\ParseTo.UnitTests.csproj": {}
+    "C:\\Users\\sam\\source\\repos\\NullTo\\tests\\ParseTo.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sam\\Source\\Repos\\NullTo\\src\\ParseTo.csproj": {
+    "C:\\Users\\sam\\source\\repos\\NullTo\\src\\ParseTo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\NullTo\\src\\ParseTo.csproj",
+        "projectUniqueName": "C:\\Users\\sam\\source\\repos\\NullTo\\src\\ParseTo.csproj",
         "projectName": "ParseTo",
-        "projectPath": "C:\\Users\\sam\\Source\\Repos\\NullTo\\src\\ParseTo.csproj",
+        "projectPath": "C:\\Users\\sam\\source\\repos\\NullTo\\src\\ParseTo.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sam\\Source\\Repos\\NullTo\\src\\obj\\",
+        "outputPath": "C:\\Users\\sam\\source\\repos\\NullTo\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\sam\\Source\\Repos\\NullTo\\tests\\ParseTo.UnitTests.csproj": {
+    "C:\\Users\\sam\\source\\repos\\NullTo\\tests\\ParseTo.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sam\\Source\\Repos\\NullTo\\tests\\ParseTo.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\sam\\source\\repos\\NullTo\\tests\\ParseTo.UnitTests.csproj",
         "projectName": "ParseTo.UnitTests",
-        "projectPath": "C:\\Users\\sam\\Source\\Repos\\NullTo\\tests\\ParseTo.UnitTests.csproj",
+        "projectPath": "C:\\Users\\sam\\source\\repos\\NullTo\\tests\\ParseTo.UnitTests.csproj",
         "packagesPath": "C:\\Users\\sam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sam\\Source\\Repos\\NullTo\\tests\\obj\\",
+        "outputPath": "C:\\Users\\sam\\source\\repos\\NullTo\\tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\sam\\Source\\Repos\\NullTo\\src\\ParseTo.csproj": {
-                "projectPath": "C:\\Users\\sam\\Source\\Repos\\NullTo\\src\\ParseTo.csproj"
+              "C:\\Users\\sam\\source\\repos\\NullTo\\src\\ParseTo.csproj": {
+                "projectPath": "C:\\Users\\sam\\source\\repos\\NullTo\\src\\ParseTo.csproj"
               }
             }
           }

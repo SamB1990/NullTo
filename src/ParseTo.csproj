@@ -10,6 +10,15 @@
     <RepositoryType>github</RepositoryType>
     <NeutralLanguage>en-GB</NeutralLanguage>
     <Description>A library that allows you to parse any object type to a specific default object type this can be extended to contain your own custom types</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags></PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
