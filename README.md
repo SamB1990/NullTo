@@ -38,7 +38,9 @@ For Example:
 
 ### Pre-built parsable types
 #### int
+*Default return: 0*
 #### int?
+*Default return: null*
 #### string
 #### double
 #### long
