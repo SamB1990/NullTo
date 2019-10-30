@@ -12,28 +12,26 @@ To build custom parsable type inherit a handler class or actual parsable object 
 
 For Example:
 
-```
-public TestObject : IParse<TestObject>
-{
-    
-}
 
-```
-> build the class and inhrit from IParse
+    public TestObject : IParse<TestObject>
+    {
+    
+    }    
+   > build the class and inhrit from IParse
 
 ### Pre-built parsable types
-    #### int
-    #### int?
-    #### string
-    #### double
-    #### long
-    #### float
-    #### decimal
-    #### Guid
-    #### bool
-    #### bool?
-    #### DateTime
-    #### DateTime?
+   #### int
+   #### int?
+   #### string
+   #### double
+   #### long
+   #### float
+   #### decimal
+   #### Guid
+   #### bool
+   #### bool?
+   #### DateTime
+   #### DateTime?
   
 # Contribute
 
