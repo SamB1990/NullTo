@@ -32,8 +32,12 @@ namespace ParseTo
         {
             if(typeof(T).GetInterfaces().Any(i => i == typeof(IParseTo<T>)))
                 return createParser<T>(typeof(T));
-            
-            var parserType = getAssemblies<T>().Select(a => a.GetTypes().FirstOrDefault(type => typeof(IParseTo<T>).GetTypeInfo().IsAssignableFrom(type))).FirstOrDefault();
+
+            var allTypes = getAssemblies<T>().SelectMany(a => a.GetTypes());
+
+            var parserType = allTypes.Where(t => typeof(IParseTo<T>).GetTypeInfo().IsAssignableFrom(t)).FirstOrDefault();
+
+            //var parserType = getAssemblies<T>().Select(a => a.GetTypes().FirstOrDefault(type => typeof(IParseTo<T>).GetTypeInfo().IsAssignableFrom(type))).FirstOrDefault();
 
             return createParser<T>(parserType);
         }

@@ -5,4 +5,4 @@ C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.Assembly
 C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.AssemblyInfo.cs
 C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.dll
 C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.pdb
-C:\Users\sam\Source\Repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.csprojAssemblyReference.cache
+C:\Users\sam\source\repos\NullTo\src\obj\Release\netstandard2.0\ParseTo.csprojAssemblyReference.cache
