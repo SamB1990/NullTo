@@ -12,6 +12,8 @@ namespace ParseTo.Objects
                 case string _:
                     return bool.Parse(i.ToString());
                 case int _:
+                case Int16 _:
+                case Int64 _:
                     return Convert.ToBoolean(i);
                 default:
                     return (bool)i;
@@ -32,6 +34,8 @@ namespace ParseTo.Objects
                 case string _:
                     return bool.Parse(i.ToString());
                 case int _:
+                case Int16 _:
+                case Int64 _:
                     return Convert.ToBoolean(i);
                 default:
                     return (bool)i;
