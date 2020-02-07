@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ParseTo.Extensions;
 
 namespace ParseTo.UnitTests
@@ -73,6 +74,26 @@ namespace ParseTo.UnitTests
         }
 
         [TestMethod]
+        public void ParseTo_InputInt16Zero_ExpectingFalse()
+        {
+            const Int16 variable = 0;
+
+            var result = variable.ParseTo<bool>();
+
+            Assert.AreEqual(false, result);
+        }
+
+        [TestMethod]
+        public void ParseTo_InputInt64Zero_ExpectingFalse()
+        {
+            const Int64 variable = 0;
+
+            var result = variable.ParseTo<bool>();
+
+            Assert.AreEqual(false, result);
+        }
+
+        [TestMethod]
         public void ParseTo_WithDefaultTrue_InputZero_ExpectingFalse()
         {
             const int variable = 0;
@@ -86,6 +107,26 @@ namespace ParseTo.UnitTests
         public void ParseTo_InputOne_ExpectingTrue()
         {
             const int variable = 1;
+
+            var result = variable.ParseTo<bool>();
+
+            Assert.AreEqual(true, result);
+        }
+
+        [TestMethod]
+        public void ParseTo_InputInt16One_ExpectingTrue()
+        {
+            const Int16 variable = 1;
+
+            var result = variable.ParseTo<bool>();
+
+            Assert.AreEqual(true, result);
+        }
+
+        [TestMethod]
+        public void ParseTo_InputInt64One_ExpectingTrue()
+        {
+            const Int64 variable = 1;
 
             var result = variable.ParseTo<bool>();
 
